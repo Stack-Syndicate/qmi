@@ -2,7 +2,7 @@
 name = "qmi"
 authors = ["Glenn Wallace glennw-coding@proton.me"]
 description = "An ECS for Rust with first-class query, mutation and interaction abstractions"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2024"
 keywords = ["ecs", "cache", "interaction"]
 categories = ["game-development", "concurrency", "algorithms", "data-structures"]
