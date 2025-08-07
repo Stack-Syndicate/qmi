@@ -2,7 +2,7 @@
 name = "qmi"
 authors = ["Glenn Wallace glennw-coding@proton.me"]
 description = "A parallel ECS built on hecs where queries, mutations and interactions are first-class abstractions."
-version = "0.0.3"
+version = "0.0.5"
 edition = "2024"
 keywords = ["ecs", "cache", "interaction"]
 categories = ["game-development", "concurrency", "algorithms", "data-structures"]
