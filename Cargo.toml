@@ -1,7 +1,7 @@
 [package]
 name = "qmi"
 authors = ["Glenn Wallace glennw-coding@proton.me"]
-description = "An ECS for Rust with first-class query, mutation and interaction abstractions"
+description = "A parallel ECS built on hecs where queries, mutations and interactions are first-class abstractions."
 version = "0.0.3"
 edition = "2024"
 keywords = ["ecs", "cache", "interaction"]
@@ -11,3 +11,7 @@ license-file = "LICENSE"
 repository = "https://github.com/glennw-mt/qmi"
 
 [dependencies]
+hecs = "0.10.5"
+tokio = { version = "1.47.1", features = ["full"] }
+
+
