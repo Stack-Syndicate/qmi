@@ -1,17 +1,14 @@
-name: Rust
+name: Publish to crates.io
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_dispatch:
 
 env:
   CARGO_TERM_COLOR: always
 
 jobs:
   build:
-
+    name: Publish Crate
     runs-on: ubuntu-latest
 
     steps:
