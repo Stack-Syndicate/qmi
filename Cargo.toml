@@ -11,7 +11,5 @@ license-file = "LICENSE"
 repository = "https://github.com/glennw-mt/qmi"
 
 [dependencies]
-hecs = "0.10.5"
-tokio = { version = "1.47.1", features = ["full"] }
 
 
