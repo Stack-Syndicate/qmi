@@ -1,15 +1,10 @@
 [package]
 name = "qmi"
 authors = ["Glenn Wallace glennw-coding@proton.me"]
-description = "A parallel ECS where queries, mutations and interactions are first-class abstractions."
-version = "0.0.5"
+version = "0.0.1"
 edition = "2024"
-keywords = ["ecs", "cache", "interaction"]
+keywords = ["ecs"]
 categories = ["game-development", "concurrency", "algorithms", "data-structures"]
 license = "MIT"
-license-file = "LICENSE"
-repository = "https://github.com/glennw-mt/qmi"
-
-[dependencies]
-
+repository = "https://github.com/Stack-Syndicate/qmi"
 
