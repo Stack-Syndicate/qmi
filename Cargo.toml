@@ -1,10 +1,14 @@
 [package]
 name = "qmi"
 authors = ["Glenn Wallace glennw-coding@proton.me"]
-version = "0.0.1"
+version = "0.0.2"
 edition = "2024"
 keywords = ["ecs"]
-categories = ["game-development", "concurrency", "algorithms", "data-structures"]
+categories = ["game-development", "concurrency", "algorithms", "data-structures", "simulation"]
 license = "MIT"
 repository = "https://github.com/Stack-Syndicate/qmi"
+
+[dependencies]
+anyhow = "1.0.102"
+hecs = "0.11.0"
 
