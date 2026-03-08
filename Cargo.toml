@@ -1,5 +1,6 @@
 [package]
 name = "qmi"
+description = "A variant of ECS where topology matters and makes us happy."
 authors = ["Glenn Wallace glennw-coding@proton.me"]
 version = "0.0.6"
 edition = "2024"
